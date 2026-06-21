@@ -1,5 +1,8 @@
 # Sign In / Sign Up Form
 
+![Preview](./Preview.png)
+![Preview 2](./Preview__2.png)
+
 A dual-purpose authentication form with smooth toggle animation between Sign In and Sign Up views, with social login icons and an SVG illustration.
 
 ## ✨ Features

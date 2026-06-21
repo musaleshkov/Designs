@@ -1,5 +1,8 @@
 # AirPods Landing Page
 
+![Preview 1](./Preview_1.png)
+![Preview 2](./Preview_2.png)
+
 A beautifully animated landing page for AirPods featuring GSAP entrance animations and ScrollMagic scroll-driven reveals, written in Spanish.
 
 ## ✨ Features

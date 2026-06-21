@@ -1,5 +1,7 @@
 # Login Form
 
+![Preview](./Preview.png)
+
 An elegant login form with floating labels that animate on focus, decorative radial gradient shapes, and social login icons.
 
 ## ✨ Features

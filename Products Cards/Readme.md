@@ -1,5 +1,7 @@
 # Product Shop Cards
 
+![Preview](./Preview.png)
+
 A responsive grid of product cards with a unique hover effect — a vertical label slides in from the left, the product image tilts, and pricing shifts.
 
 ## ✨ Features

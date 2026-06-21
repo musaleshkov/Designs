@@ -1,5 +1,11 @@
 # Portfolio CV Website
 
+![Preview 1](./Preview_1.png)
+![Preview 2](./Preview_2.png)
+![Preview 3](./Preview_3.png)
+![Preview 4](./Preview_4.png)
+![Preview 5](./Preview_5.png)
+
 A complete multi-section portfolio and resume website with ScrollReveal animations, skill progress bars, and a contact form.
 
 ## ✨ Features

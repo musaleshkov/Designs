@@ -1,5 +1,7 @@
 # Glassmorphism Cards
 
+![Preview](./Preview.png)
+
 A stunning frosted-glass (glassmorphism) card layout with circular gradient decorations, backdrop blur, and animated social icons on hover.
 
 ## ✨ Features

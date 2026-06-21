@@ -1,5 +1,8 @@
 # Landing Slider Page
 
+![Preview](./preview.png)
+![Preview 1](./Preview_1.png)
+
 A fullscreen image slider showcasing tropical island destinations with Swiper.js transitions and GSAP text animations.
 
 ## ✨ Features

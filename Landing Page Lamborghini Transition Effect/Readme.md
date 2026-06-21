@@ -1,5 +1,7 @@
 # Lamborghini Landing Page
 
+![Preview](./Preview.png)
+
 A dark-themed supercar landing page with GSAP-powered entrance animations and performance statistic cards.
 
 ## ✨ Features

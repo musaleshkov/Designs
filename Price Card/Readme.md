@@ -1,5 +1,7 @@
 # Pricing Cards
 
+![Preview](./Preview.png)
+
 A three-tier pricing table with gradient pricing badges, checkmark feature lists, and hover shadow effects.
 
 ## ✨ Features

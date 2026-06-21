@@ -1,5 +1,7 @@
 # Fashion Home Landing Page
 
+![Preview](./Preview.png)
+
 A clean, minimalist fashion brand landing page with a hero layout, product imagery, and social media links.
 
 ## ✨ Features

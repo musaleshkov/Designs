@@ -1,5 +1,7 @@
 # 3D Card Effect
 
+![Preview](./Preview.png)
+
 An interactive product card with a realistic 3D tilt parallax effect, responding to mouse movement for an immersive browsing experience.
 
 ## ✨ Features
