@@ -19,7 +19,6 @@ A curated collection of **12 modern web design projects** built with HTML5, CSS3
 | 9 | **Price Card** | Three-tier pricing cards with gradient pricing badges | HTML, SCSS |
 | 10 | **Products Cards** | Product shop cards with hover-tilt label reveal | HTML, CSS |
 | 11 | **SignIn SignUp Form** | Toggleable Sign In / Sign Up form with animations | HTML, SCSS, JS |
-| 12 | **Glassmorphism Card** | Alternate glass-pane cards with circular gradients | HTML, SCSS |
 
 ---
 
