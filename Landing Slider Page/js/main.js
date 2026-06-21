@@ -1,61 +1,84 @@
+'use strict';
+
 /*==================== SHOW MENU ====================*/
-const showMenu = (toggleId, navId) =>{
-    const toggle = document.getElementById(toggleId),
-    nav = document.getElementById(navId)
+const showMenu = (toggleId, navId) => {
+	const toggle = document.getElementById(toggleId);
+	const nav = document.getElementById(navId);
 
-    // Validate that variables exist
-    if(toggle && nav){
-        toggle.addEventListener('click', () =>{
-            // We add the show-menu class to the div tag with the nav__menu class
-            nav.classList.toggle('show-menu')
-        })
-    }
-}
+	if (toggle && nav) {
+		toggle.addEventListener('click', () => {
+			nav.classList.toggle('show-menu');
+		});
+	}
+};
 
-showMenu('nav-toggle','nav-menu')
+showMenu('nav-toggle', 'nav-menu');
 
 /*==================== SWIPER JS ====================*/
 let galleryThumbs = new Swiper('.gallery-thumbs', {
-    spaceBetween: 0,
-    slidesPerView: 0,
-})
+	spaceBetween: 0,
+	slidesPerView: 0,
+});
 
 let galleryTop = new Swiper('.gallery-top', {
-    effect: 'fade',
-    loop: true,
-
-    thumbs: {
-      swiper: galleryThumbs
-    }
-})
-
+	effect: 'fade',
+	loop: true,
+	thumbs: {
+		swiper: galleryThumbs,
+	},
+});
 
 /*==================== POPUP ====================*/
-const btnOpenVideo = document.querySelectorAll('.islands__video-content')
-const islandsPopup = document.getElementById('popup')
+const btnOpenVideo = document.querySelectorAll('.islands__video-content');
+const islandsPopup = document.getElementById('popup');
 
-function poPup(){
-    islandsPopup.classList.add('show-popup')
+function poPup() {
+	islandsPopup.classList.add('show-popup');
 }
-btnOpenVideo.forEach(b => b.addEventListener('click', poPup))
+btnOpenVideo.forEach((b) => b.addEventListener('click', poPup));
 
-const btnCloseVideo = document.getElementById('popup-close')
+const btnCloseVideo = document.getElementById('popup-close');
 
-btnCloseVideo.addEventListener('click', ()=> {
-    islandsPopup.classList.remove('show-popup')
-})
+btnCloseVideo.addEventListener('click', () => {
+	islandsPopup.classList.remove('show-popup');
+});
 
 /*==================== GSAP ANIMATION ====================*/
-const controlImg = document.querySelectorAll('.controls__img')
+const controlImg = document.querySelectorAll('.controls__img');
 
-function scrollAnimation(){
-    gsap.from('.islands__subtitle', {opacity: 0, duration: .2, delay: .2, y: -20})
-    gsap.from('.islands__title', {opacity: 0, duration: .3, delay: .3, y: -20})
-    gsap.from('.islands__description', {opacity: 0, duration: .4, delay: .4, y: -20})
-    gsap.from('.islands__button', {opacity: 0, duration: .5, delay: .5, y: -20})
-    gsap.from('.islands__video-content', {opacity: 0, duration: .6, delay: .6, y: -20})
+function scrollAnimation() {
+	gsap.from('.islands__subtitle', {
+		opacity: 0,
+		duration: 0.2,
+		delay: 0.2,
+		y: -20,
+	});
+	gsap.from('.islands__title', {
+		opacity: 0,
+		duration: 0.3,
+		delay: 0.3,
+		y: -20,
+	});
+	gsap.from('.islands__description', {
+		opacity: 0,
+		duration: 0.4,
+		delay: 0.4,
+		y: -20,
+	});
+	gsap.from('.islands__button', {
+		opacity: 0,
+		duration: 0.5,
+		delay: 0.5,
+		y: -20,
+	});
+	gsap.from('.islands__video-content', {
+		opacity: 0,
+		duration: 0.6,
+		delay: 0.6,
+		y: -20,
+	});
 
-    islandsPopup.classList.remove('show-popup')
+	islandsPopup.classList.remove('show-popup');
 }
 
-controlImg.forEach(c => c.addEventListener('click', scrollAnimation))
+controlImg.forEach((c) => c.addEventListener('click', scrollAnimation));
